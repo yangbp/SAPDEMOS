@@ -1,0 +1,62 @@
+PROGRAM demo_cr_call_car_rental.
+
+SELECTION-SCREEN BEGIN OF SCREEN 100 as WINDOW TITLE text-chc.
+PARAMETERS g_wd     RADIOBUTTON GROUP grp.
+PARAMETERS g_dynpro RADIOBUTTON GROUP grp.
+SELECTION-SCREEN ULINE /1(40).
+PARAMETERS g_init   AS CHECKBOX.
+SELECTION-SCREEN END OF SCREEN 100.
+
+CLASS web_dynpro DEFINITION.
+  PUBLIC SECTION.
+    CLASS-METHODS call.
+ENDCLASS.
+
+CLASS web_dynpro IMPLEMENTATION.
+  METHOD call.
+    CALL FUNCTION 'PRGN_START_EXECUTE_MODULE'
+         EXPORTING
+              URL_TYPE      = 'WDY_APPLICATION'
+              URL           = '0Edemo_wd_car_rental'.
+  ENDMETHOD.
+ENDCLASS.
+
+CLASS dynpro DEFINITION.
+  PUBLIC SECTION.
+    CLASS-METHODS call.
+ENDCLASS.
+
+CLASS dynpro IMPLEMENTATION.
+  METHOD call.
+    DATA func TYPE c LENGTH 30 VALUE 'DEMO_CR_CALL_CAR_RENTAL_SCREEN'.
+    CALL FUNCTION func.
+  ENDMETHOD.
+ENDCLASS.
+
+CLASS main DEFINITION.
+  PUBLIC SECTION.
+    CLASS-METHODS start.
+ENDCLASS.
+
+CLASS main IMPLEMENTATION.
+  METHOD start.
+    CALL SELECTION-SCREEN 100 STARTING AT 10 10
+                              ENDING   AT 50 14.
+    IF sy-subrc <> 0.
+      EXIT.
+    ENDIF.
+    IF g_init = 'X'.
+      SUBMIT ('DEMO_CR_CAR_RENTAL_INITIALIZE') AND RETURN. "#EC CI_SUBMIT
+    ENDIF.
+    IF g_wd = 'X'.
+      web_dynpro=>call( ).
+    ELSEIF g_dynpro = 'X'.
+      dynpro=>call( ).
+    ELSE.
+      RETURN.
+    ENDIF.
+  ENDMETHOD.
+ENDCLASS.
+
+START-OF-SELECTION.
+  main=>start( ).

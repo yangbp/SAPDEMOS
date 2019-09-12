@@ -1,0 +1,20 @@
+class CL_DEMO_ABAP_VERSION_TEST definition
+  public
+  final
+  create private .
+
+public section.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+
+    METHODS meth .
+ENDCLASS.
+
+
+
+CLASS CL_DEMO_ABAP_VERSION_TEST IMPLEMENTATION.
+
+
+  METHOD METH.
+  ENDMETHOD.
+ENDCLASS.

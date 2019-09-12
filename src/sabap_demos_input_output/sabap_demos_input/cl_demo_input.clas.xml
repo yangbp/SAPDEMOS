@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>CL_DEMO_INPUT</CLSNAME>
+    <LANGU>1</LANGU>
+    <DESCRIPT>Demo Input</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_INPUT</CLSNAME>
+     <CMPNAME>ADD_FIELD</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Adds an input field</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_INPUT</CLSNAME>
+     <CMPNAME>ADD_FIELD</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fügt ein Eingabefeld hinzu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_INPUT</CLSNAME>
+     <CMPNAME>ADD_FIELD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adds an input field</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_INPUT</CLSNAME>
+     <CMPNAME>ADD_LINE</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Inserts an empty line</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_INPUT</CLSNAME>
+     <CMPNAME>ADD_LINE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fügt eine Leerzeile ein</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_INPUT</CLSNAME>
+     <CMPNAME>ADD_LINE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Inserts an empty line</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_INPUT</CLSNAME>
+     <CMPNAME>ADD_TEXT</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Inserts a text line</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_INPUT</CLSNAME>
+     <CMPNAME>ADD_TEXT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fügt eine Textzeile ein</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_INPUT</CLSNAME>
+     <CMPNAME>ADD_TEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Inserts a text line</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_INPUT</CLSNAME>
+     <CMPNAME>NEW</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Factory Method</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_INPUT</CLSNAME>
+     <CMPNAME>NEW</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Factory-Methode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_INPUT</CLSNAME>
+     <CMPNAME>NEW</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Factory Method</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_INPUT</CLSNAME>
+     <CMPNAME>REQUEST</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Requests input</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_INPUT</CLSNAME>
+     <CMPNAME>REQUEST</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fordert Eingabe an</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_INPUT</CLSNAME>
+     <CMPNAME>REQUEST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Requests input</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

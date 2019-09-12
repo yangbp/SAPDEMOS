@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>DEMO_FLIGHT</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Flugbeispiel</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>1</SPRSL>
+     <ARBGB>DEMO_FLIGHT</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Flight &amp;1 &amp;2 changed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>1</SPRSL>
+     <ARBGB>DEMO_FLIGHT</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Unable to save flight &amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>1</SPRSL>
+     <ARBGB>DEMO_FLIGHT</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Departure airport &amp;1 is unknown</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>1</SPRSL>
+     <ARBGB>DEMO_FLIGHT</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Destination airport &amp;1 is unknown</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>1</SPRSL>
+     <ARBGB>DEMO_FLIGHT</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Flight &amp;1 &amp;2 not created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>1</SPRSL>
+     <ARBGB>DEMO_FLIGHT</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Flight &amp;1 &amp;2 does not have any flight data</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>1</SPRSL>
+     <ARBGB>DEMO_FLIGHT</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Internal error when reading dynpro data</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>1</SPRSL>
+     <ARBGB>DEMO_FLIGHT</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Unable to display possible entries</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>1</SPRSL>
+     <ARBGB>DEMO_FLIGHT</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>You are not authorized to display flight data</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>1</SPRSL>
+     <ARBGB>DEMO_FLIGHT</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>You are not authorized to change flight data</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>1</SPRSL>
+     <ARBGB>DEMO_FLIGHT</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Deleting flight</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>DEMO_FLIGHT</ARBGB>
+     <STEXT>Flugbeispiel</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>E</SPRSL>
+     <ARBGB>DEMO_FLIGHT</ARBGB>
+     <STEXT>Flight Example</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>000</MSGNR>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Der Flug &amp;1 &amp;2 wurde geändert</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Der Flug &amp;1 &amp;2 konnte nicht gesichert werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Der Startflughafen &amp;1 ist unbekannt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Der Zielflughafen &amp;1 ist unbekannt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Der Flug &amp;1 &amp;2 ist nicht angelegt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Der Flug &amp;1 &amp;2 hat keine Flugdaten</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Interner Fehler beim Lesen der Dynprodaten</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Es sind keine Eingabemöglichkeiten anzeigbar</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Sie haben keine Berechtigung zum Anzeigen von Flugdaten</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Sie haben keine Berechtigung zum Ändern von Flugdaten</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Der Flug wird gelöscht</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Flight &amp;1 &amp;2 changed</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Unable to save flight &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Departure airport &amp;1 is unknown</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Destination airport &amp;1 is unknown</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Flight &amp;1 &amp;2 not created</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Flight &amp;1 &amp;2 does not have any flight data</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Internal error when reading dynpro data</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Unable to display possible entries</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>You are not authorized to display flight data</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>You are not authorized to change flight data</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Deleting flight</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENQU" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD25V>
+    <VIEWNAME>EDEMO_CHESS_GAME</VIEWNAME>
+    <AGGTYPE>E</AGGTYPE>
+    <ROOTTAB>DEMO_CHESS_GAME</ROOTTAB>
+   </DD25V>
+   <DD26E_TABLE>
+    <DD26E>
+     <VIEWNAME>EDEMO_CHESS_GAME</VIEWNAME>
+     <TABNAME>DEMO_CHESS_GAME</TABNAME>
+     <TABPOS>0001</TABPOS>
+     <FORTABNAME>DEMO_CHESS_GAME</FORTABNAME>
+     <ENQMODE>E</ENQMODE>
+    </DD26E>
+   </DD26E_TABLE>
+   <DD27P_TABLE>
+    <DD27P>
+     <VIEWNAME>EDEMO_CHESS_GAME</VIEWNAME>
+     <OBJPOS>0001</OBJPOS>
+     <VIEWFIELD>CLIENT</VIEWFIELD>
+     <TABNAME>DEMO_CHESS_GAME</TABNAME>
+     <FIELDNAME>CLIENT</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ENQMODE>E</ENQMODE>
+    </DD27P>
+    <DD27P>
+     <VIEWNAME>EDEMO_CHESS_GAME</VIEWNAME>
+     <OBJPOS>0002</OBJPOS>
+     <VIEWFIELD>GAMEUUID</VIEWFIELD>
+     <TABNAME>DEMO_CHESS_GAME</TABNAME>
+     <FIELDNAME>GAMEUUID</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ENQMODE>E</ENQMODE>
+    </DD27P>
+   </DD27P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

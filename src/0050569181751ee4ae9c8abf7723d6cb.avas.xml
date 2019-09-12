@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_AVAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AVAS>
+    <HEADER>
+     <GUID>0050569181751EE4AE9C8ABF7723D6CB</GUID>
+     <ATTRIBUTE>SOURCE_TYPE</ATTRIBUTE>
+     <OBJECT>
+      <TROBJTYPE>PROG</TROBJTYPE>
+      <SOBJ_NAME>DEMO_RND_PARSER_LOGIC_PAD</SOBJ_NAME>
+     </OBJECT>
+    </HEADER>
+    <VALUES>
+     <CLS_VALUE_ASSIGNMENT>
+      <VALUE>PAD</VALUE>
+      <ICON>@9X@</ICON>
+     </CLS_VALUE_ASSIGNMENT>
+    </VALUES>
+   </AVAS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

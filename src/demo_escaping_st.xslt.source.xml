@@ -1,0 +1,13 @@
+<?sap.transform simple?>
+<tt:transform xmlns:tt="http://www.sap.com/transformation-templates">
+
+  <tt:root name="TEXT"/>
+
+  <tt:template>
+    <text>
+      <tt:attribute name="attr" value-ref="TEXT" />
+      <tt:value ref="TEXT"/>
+    </text>
+  </tt:template>
+
+</tt:transform>

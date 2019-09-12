@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>DEMO_CHESS_XPOS</ROLLNAME>
+    <DOMNAME>DEMO_CHESS_XPOS</DOMNAME>
+    <HEADLEN>10</HEADLEN>
+    <SCRLEN1>04</SCRLEN1>
+    <SCRLEN2>10</SCRLEN2>
+    <SCRLEN3>10</SCRLEN3>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Position in X-Richtung</DDTEXT>
+     <REPTEXT>X-Position</REPTEXT>
+     <SCRTEXT_S>Xpos</SCRTEXT_S>
+     <SCRTEXT_M>X-Position</SCRTEXT_M>
+     <SCRTEXT_L>X-Position</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

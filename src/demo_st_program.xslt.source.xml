@@ -1,0 +1,16 @@
+<?sap.transform simple?>
+<tt:transform template="tmpl1"
+  xmlns:tt="http://www.sap.com/transformation-templates">
+  <tt:root name="ROOT1"/>
+  <tt:root name="ROOT2"/>
+  <tt:template name="tmpl1">
+    <X0>
+      <X1>
+        <tt:value ref="ROOT1" />
+      </X1>
+      <X2>
+        <tt:value ref="ROOT2" />
+      </X2>
+    </X0>
+  </tt:template>
+</tt:transform>

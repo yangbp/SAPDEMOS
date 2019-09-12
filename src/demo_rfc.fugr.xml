@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>RFC Examples</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>SAPLDEMO_RFC</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>DEMO_RFM_CALL_TRANSACTION</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>TCODE</PARAMETER>
+       <TYP>SY-TCODE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>TCODE</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>DEMO_RFM_CLASSIC_EXCEPTION</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>CLASSIC_EXCEPTION</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>CLASSIC_EXCEPTION</PARAMETER>
+       <KIND>X</KIND>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>DEMO_RFM_CLASS_BASED_EXCEPTION</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>CX_DEMO_EXCEPTION</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>CX_DEMO_EXCEPTION</PARAMETER>
+       <KIND>X</KIND>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+     <EXCEPTION_CLASSES>X</EXCEPTION_CLASSES>
+    </item>
+    <item>
+     <FUNCNAME>DEMO_RFM_LOGON_DATA</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>UNAME</PARAMETER>
+       <TYP>SY-UNAME</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>MANDT</PARAMETER>
+       <TYP>SY-MANDT</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>LANGU</PARAMETER>
+       <TYP>SY-LANGU</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>LOGON_LANGU</PARAMETER>
+       <TYP>SY-LANGU</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>UNAME</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MANDT</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LANGU</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 003</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LOGON_LANGU</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 004</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>DEMO_RFM_PARAMETERS</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>P_IN</PARAMETER>
+       <TYP>STRING</TYP>
+      </RSIMP>
+     </IMPORT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>P_IN_OUT</PARAMETER>
+       <TYP>STRING</TYP>
+      </RSCHA>
+     </CHANGING>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>P_OUT</PARAMETER>
+       <TYP>STRING</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>P_IN</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>P_OUT</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>P_IN_OUT</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 003</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>CBE</KEY>
+       <ENTRY>Klassenbasierte Ausnahme CX_DEMO_EXCEPT</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CLE</KEY>
+       <ENTRY>Klassische Ausnahme CLASSIC_EXCEPTION</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>CBE</KEY>
+       <ENTRY>Class-Based Exception CX_DEMO_EXCEPT</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CLE</KEY>
+       <ENTRY>Classic Exception CLASSIC_EXCEPTION</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

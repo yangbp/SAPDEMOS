@@ -1,0 +1,34 @@
+REPORT demo_sel_screen_select_options.
+
+CLASS start DEFINITION.
+  PUBLIC SECTION.
+    CLASS-DATA name(80) TYPE c.
+    CLASS-METHODS main.
+ENDCLASS.
+
+SELECTION-SCREEN BEGIN OF SCREEN 100.
+  PARAMETERS: dbtab  TYPE c LENGTH 30 DEFAULT 'SFLIGHT',
+              column TYPE c LENGTH 30 DEFAULT 'CARRID'.
+SELECTION-SCREEN END OF SCREEN 100.
+
+SELECTION-SCREEN BEGIN OF SCREEN 500 AS WINDOW.
+  SELECT-OPTIONS selcrit FOR (start=>name).
+SELECTION-SCREEN END OF SCREEN 500.
+
+START-OF-SELECTION.
+  start=>main( ).
+
+CLASS start IMPLEMENTATION.
+  METHOD main.
+    CALL SELECTION-SCREEN 100 STARTING AT 10 10.
+    IF sy-subrc <> 0.
+      RETURN.
+    ENDIF.
+    name = dbtab && '-' && column.
+    CALL SELECTION-SCREEN 500 STARTING AT 10 10.
+    IF sy-subrc <> 0.
+      RETURN.
+    ENDIF.
+    cl_abap_demo_services=>list_table( selcrit[] ).
+  ENDMETHOD.
+ENDCLASS.

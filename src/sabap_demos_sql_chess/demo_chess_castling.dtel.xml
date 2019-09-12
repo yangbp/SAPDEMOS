@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>DEMO_CHESS_CASTLING</ROLLNAME>
+    <DOMNAME>SAP_BOOL</DOMNAME>
+    <HEADLEN>18</HEADLEN>
+    <SCRLEN1>05</SCRLEN1>
+    <SCRLEN2>13</SCRLEN2>
+    <SCRLEN3>18</SCRLEN3>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Rochade zulässig</DDTEXT>
+     <REPTEXT>Rochade zulässig</REPTEXT>
+     <SCRTEXT_S>Roch.</SCRTEXT_S>
+     <SCRTEXT_M>Rochade zul.</SCRTEXT_M>
+     <SCRTEXT_L>Rochade zulässig</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

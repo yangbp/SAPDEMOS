@@ -1,0 +1,45 @@
+<?sap.transform simple?>
+<tt:transform xmlns:tt="http://www.sap.com/transformation-templates">
+  <tt:root name="TIME"/>
+  <tt:root name="BOOLEAN"/>
+  <tt:root name="NUMTEXT"/>
+  <tt:template>
+    <array>
+      <object>
+        <str name="TIME">
+          <tt:value ref="TIME"/>
+        </str>
+        <str name="regime(num) for TIME">
+          <tt:value option="regime(num)"
+                    ref="TIME"/>
+        </str>
+        <str name="regime(num),decimals(2) for TIME">
+          <tt:value option="regime(num),decimals(2)"
+                    ref="TIME"/>
+        </str>
+        <str name="BOOLEAN">
+          <tt:value ref="BOOLEAN"/>
+        </str>
+        <str name="regime(char) for BOOLEAN">
+          <tt:value option="regime(char)"
+                    ref="BOOLEAN"/>
+        </str>
+        <str name="regime(char),format(boolean) for BOOLEAN">
+          <tt:value option="regime(char),format(boolean)"
+                    ref="BOOLEAN"/>
+        </str>
+        <str name="NUMTEXT">
+          <tt:value ref="NUMTEXT"/>
+        </str>
+        <str name="regime(bin) for NUMTEXT">
+          <tt:value option="regime(bin)"
+                    ref="NUMTEXT"/>
+        </str>
+        <str name="regime(bin),format(uri1) for NUMTEXT">
+          <tt:value option="regime(bin),format(uri1)"
+                    ref="NUMTEXT"/>
+        </str>
+      </object>
+    </array>
+  </tt:template>
+</tt:transform>

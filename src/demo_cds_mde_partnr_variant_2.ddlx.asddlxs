@@ -1,0 +1,9 @@
+@Metadata.layer: #PARTNER
+annotate view Demo_Cds_MDE with
+  variant
+    DemoVariant2
+{
+  @UI.dataPoint.title: 'MDE PARTNER, DemoVariant2, title'
+  @UI.dataPoint.description: 'MDE PARTNER, DemoVariant2, description'
+  element;
+}

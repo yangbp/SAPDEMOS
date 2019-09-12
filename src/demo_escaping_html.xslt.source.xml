@@ -1,0 +1,16 @@
+<xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform"  version="1.0"
+               xmlns:sap="http://www.sap.com/sapxsl"
+               xmlns:asx="http://www.sap.com/abapxml"
+               exclude-result-prefixes="asx">
+
+  <xsl:output method="html"/>
+
+  <xsl:template match="/">
+    <html>
+      <body>
+        <xsl:value-of select="asx:abap[1]/asx:values[1]/TEXT"/>
+      </body>
+    </html>
+  </xsl:template>
+
+</xsl:transform>

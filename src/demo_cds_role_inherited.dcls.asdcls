@@ -1,0 +1,4 @@
+@MappingRole: true
+define role demo_cds_role_inherited {
+  grant select on demo_cds_auth_inherited
+               inherit demo_cds_role_lit_pfcg or currcode = 'USD'; }

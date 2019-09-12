@@ -1,0 +1,9 @@
+@Metadata.layer: #INDUSTRY
+annotate view Demo_Cds_MDE with
+  variant
+    DemoVariant2
+{
+  @UI.dataPoint.title: 'MDE INDUSTRY, DemoVariant2, title'
+  @UI.dataPoint.description: 'MDE INDUSTRY, DemoVariant2, description'
+  element;
+}

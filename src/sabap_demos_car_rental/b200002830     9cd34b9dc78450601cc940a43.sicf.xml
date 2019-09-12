@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SICF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <URL>/sap/bc/webdynpro/sap/B200002830/</URL>
+   <ICFSERVICE>
+    <ICF_NAME>B200002830</ICF_NAME>
+    <ORIG_NAME>B200002830</ORIG_NAME>
+    <ICFALTNME>DEMO_WD_CAR_RENTAL</ICFALTNME>
+   </ICFSERVICE>
+   <ICFDOCU>
+    <ICF_NAME>B200002830</ICF_NAME>
+    <ICF_LANGU>1</ICF_LANGU>
+    <ICF_DOCU>Demo Application Car Rental</ICF_DOCU>
+   </ICFDOCU>
+  </asx:values>
+ </asx:abap>
+</abapGit>

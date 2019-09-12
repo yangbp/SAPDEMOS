@@ -1,0 +1,6 @@
+@Metadata.layer: #PARTNER
+annotate view Demo_Cds_MDE with
+{
+  @UI.dataPoint.title: 'MDE PARTNER, no variant, title'
+  element;
+}

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>DEMO_OO_METHOD</TCODE>
+    <PGMNA>DEMO_OO_TRANSACTION</PGMNA>
+    <CINFO>CA==</CINFO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>DEMO_OO_METHOD</TCODE>
+    <S_WEBGUI>1</S_WEBGUI>
+    <S_WIN32>X</S_WIN32>
+    <S_PLATIN>X</S_PLATIN>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>1</SPRSL>
+    <TCODE>DEMO_OO_METHOD</TCODE>
+    <TTEXT>OO Trans. for Local Instance Method</TTEXT>
+   </TSTCT>
+   <TSTCP>
+    <TCODE>DEMO_OO_METHOD</TCODE>
+    <PARAM>\PROGRAM=DEMO_OO_TRANSACTION\CLASS=DEMO_CLASS\METHOD=INSTANCE_METHOD</PARAM>
+   </TSTCP>
+   <I18N_TPOOL>
+    <TSTCT>
+     <SPRSL>D</SPRSL>
+     <TTEXT>OO-TA für lokale Instanzmethode</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>E</SPRSL>
+     <TTEXT>OO Trans. for Local Instance Method</TTEXT>
+    </TSTCT>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

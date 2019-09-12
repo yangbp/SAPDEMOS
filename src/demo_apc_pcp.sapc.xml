@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SAPC" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SAPC>
+    <HEADER>
+     <APPLICATION_ID>DEMO_APC_PCP</APPLICATION_ID>
+     <VERSION>A</VERSION>
+     <PATH>/sap/bc/apc/sap/demo_apc_pcp</PATH>
+     <CLASS_NAME>CL_APC_WSP_EXT_DEMO_APC_PCP</CLASS_NAME>
+     <PROTOCOL_TYPE_ID>V10.PCP.SAP.COM</PROTOCOL_TYPE_ID>
+     <APPLICATION_VERSION>1</APPLICATION_VERSION>
+    </HEADER>
+    <TEXT>
+     <APPLICATION_ID>DEMO_APC_PCP</APPLICATION_ID>
+     <VERSION>A</VERSION>
+     <LANG>1</LANG>
+     <DESCRIPTION>Demo for ABAP Push Channels with Push Channel Protocol</DESCRIPTION>
+    </TEXT>
+   </SAPC>
+  </asx:values>
+ </asx:abap>
+</abapGit>

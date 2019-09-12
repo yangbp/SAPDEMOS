@@ -1,0 +1,811 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+    <LANGU>1</LANGU>
+    <DESCRIPT>Demo Output with Static Methods or Instance Methods</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>BEGIN_SECTION</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Opens a header level</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>BEGIN_SECTION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Öffnet eine Überschriftenebene</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>BEGIN_SECTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Opens a header level</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Opens output stream and registers event handler</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Öffnet Ausgabestrom und registriert Ereignisbehandler</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Opens output stream and registers event handler</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Shows the current output and deletes it</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Stellt die aktuelle Ausgabe dar und löscht sie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Shows the current output and deletes it</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>DISPLAY_DATA</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Adds a data object to the output and shows the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>DISPLAY_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fügt der Ausgabe ein Datenobjekt hinzu und stellt sie dar</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>DISPLAY_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adds a data object to the output and shows the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>DISPLAY_HTML</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Adds HTML data to the output and shows the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>DISPLAY_HTML</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fügt der Ausgabe HTML-Daten hinzu und und stellt sie dar</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>DISPLAY_HTML</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adds HTML data to the output and shows the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>DISPLAY_JSON</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Adds JSON data to the output and shows the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>DISPLAY_JSON</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fügt der Ausgabe JSON-Daten hinzu und und stellt sie dar</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>DISPLAY_JSON</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adds JSON data to the output and shows the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>DISPLAY_NONPROP</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Adds non-proportional values to stream and closes the stream</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>DISPLAY_NONPROP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fügt dem Strom nicht-prp. Werte hinzu und schließt den Strom</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>DISPLAY_NONPROP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adds non-proportional values to stream and closes the stream</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>DISPLAY_TEXT</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Adds text to the output and shows the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>DISPLAY_TEXT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fügt der AusgabeText hinzu und und stellt sie dar</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>DISPLAY_TEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adds text to the output and shows the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>DISPLAY_XML</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Adds XML data to the output and shows the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>DISPLAY_XML</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fügt der Ausgabe XML-Daten hinzu und und stellt sie dar</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>DISPLAY_XML</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adds XML data to the output and shows the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>END_SECTION</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Closes a header level</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>END_SECTION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Schließt  eine Überschriftenebene</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>END_SECTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Closes a header level</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>EXEC_BEGIN_SECTION</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Shared Implementation of BEGIN_SECTION</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>EXEC_BEGIN_SECTION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gemeinsame Implementierung BEGIN_SECTION</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>EXEC_BEGIN_SECTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Shared Implementation of BEGIN_SECTION</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>EXEC_END_SECTION</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Shared Implementation of END_SECTION</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>EXEC_END_SECTION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gemeinsame Implementierung END_SECTION</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>EXEC_END_SECTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Shared Implementation of END_SECTION</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>EXEC_WRITE</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Shared Implementation of WRITE</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>EXEC_WRITE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gemeinsame Implementierung WRITE</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>EXEC_WRITE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Shared Implementation of WRITE</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>EXEC_WRITE_DATA</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Shared Implementation of WRITE_DATA</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>EXEC_WRITE_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gemeinsame Implementierung WRITE_DATA</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>EXEC_WRITE_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Shared Implementation of WRITE_DATA</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>EXEC_WRITE_HTML</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Shared Implementation of WRITE_HTML</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>EXEC_WRITE_HTML</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gemeinsame Implementierung WRITE_HTML</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>EXEC_WRITE_HTML</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Shared Implementation of WRITE_HTML</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>EXEC_WRITE_JSON</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Shared Implementation of WRITE_JSON</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>EXEC_WRITE_JSON</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gemeinsame Implementierung WRITE_JSON</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>EXEC_WRITE_JSON</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Shared Implementation of WRITE_JSON</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>EXEC_WRITE_TEXT</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Shared Implementation of WRITE_TEXT</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>EXEC_WRITE_TEXT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gemeinsame Implementierung WRITE_TEXT</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>EXEC_WRITE_TEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Shared Implementation of WRITE_TEXT</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>EXEC_WRITE_XML</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Shared Implementation of WRITE_XML</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>EXEC_WRITE_XML</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gemeinsame Implementierung WRITE_XML</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>EXEC_WRITE_XML</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Shared Implementation of WRITE_XML</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>GET</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Gets the current output and opens a new output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>GET</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gibt die aktuelle Ausgabe  zurück und öffnet eine neue</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>GET</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Gets the current output and opens a new output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>GET_ADT_CONSOLE_FLAG</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Gets flag for the ADT console</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>GET_ADT_CONSOLE_FLAG</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Besorgt Kennzeichen für die ADT-Konsole</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>GET_ADT_CONSOLE_FLAG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Gets flag for the ADT console</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>GET_NAME</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Gets name of data object (if possible)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>GET_NAME</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Besorgt  falls möglich den Namen eines Datenobjekts</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>GET_NAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Gets name of data object (if possible)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>HEADING_LEVEL</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Header Level</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>HEADING_LEVEL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Überschriftenebene</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>HEADING_LEVEL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Header Level</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>HTML_MODE</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>HTML Output Mode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>HTML_MODE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ausgabemodus HTML</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>HTML_MODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>HTML Output Mode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>LINE</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Adds a horizontal HTML line</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>LINE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fügt eine horizontale HTML-Linie ein</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>LINE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adds a horizontal HTML line</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>MODE</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Output Mode (HTML or Text)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>MODE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ausgabemodus (HTML oder Text)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>MODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Output Mode (HTML or Text)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>NEW</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Creates an instance of the class and gets the reference</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>NEW</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Erzeugt eine Instanz der Klasse und gibt die Referenz zurück</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>NEW</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Creates an instance of the class and gets the reference</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>NEXT_SECTION</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Closes header level and opens a new level</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>NEXT_SECTION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Schließt  eine Überschriftenebene und öffnet eine neue</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>NEXT_SECTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Closes header level and opens a new level</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>SET_INSTANCE_HANDLER</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Sets the handler for the stream (HTML or text)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>SET_INSTANCE_HANDLER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Setzt den Behandler für den Strom  (HTML oder Text)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>SET_INSTANCE_HANDLER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sets the handler for the stream (HTML or text)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>SET_INSTANCE_HTML</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Responds to end of HTML creation and gets HTML</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>SET_INSTANCE_HTML</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Reagiert auf Ende der HTML-Erstellung und besorgt das HTML</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>SET_INSTANCE_HTML</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Responds to end of HTML creation and gets HTML</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>SET_INSTANCE_TEXT</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Responds to end of text creation and gets text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>SET_INSTANCE_TEXT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Reagiert auf Ende der Texterstellung und besorgt den Text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>SET_INSTANCE_TEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Responds to end of text creation and gets text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>SET_MODE</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Sets the static output mode (HTML or text)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>SET_MODE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Setzt den statischen Ausgabemodus (HTML oder Text)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>SET_MODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sets the static output mode (HTML or text)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>SET_STATIC_HANDLER</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Sets the handler for the stream (HTML or text)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>SET_STATIC_HANDLER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Setzt den Behandler für den Strom  (HTML oder Text)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>SET_STATIC_HANDLER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sets the handler for the stream (HTML or text)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>SET_STATIC_HTML</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Responds to end of HTML creation and gets HTML</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>SET_STATIC_HTML</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Reagiert auf Ende der HTML-Erstellung und besorgt das HTML</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>SET_STATIC_HTML</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Responds to end of HTML creation and gets HTML</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>SET_STATIC_TEXT</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Responds to end of text creation and gets text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>SET_STATIC_TEXT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Reagiert auf Ende der Texterstellung und besorgt den Text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>SET_STATIC_TEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Responds to end of text creation and gets text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>STREAM_HANDLE</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Reference to Stream Object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>STREAM_HANDLE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Referenz auf Stromobjekt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>STREAM_HANDLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reference to Stream Object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>TEXT_MODE</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Text Output Mode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>TEXT_MODE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ausgabemodus Text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>TEXT_MODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Text Output Mode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Adds non-proportional text or data to the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fügt der Ausgabe nicht-proportionalen Text oder Daten hinzu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adds non-proportional text or data to the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_DATA</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Adds a data object to the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fügt  der Ausgabe ein Datenobjekt hinzu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adds a data object to the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_HTML</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Adds HTML data to the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_HTML</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fügt der Ausgabe HTML-Daten hinzu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_HTML</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adds HTML data to the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_JSON</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Adds JSON data to the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_JSON</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fügt der Ausgabe JSON-Daten hinzu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_JSON</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adds JSON data to the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_NONPROP</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Adds non-proportional text or data to the stream</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_NONPROP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fügt dem Strom nicht-proportionalen Text oder Daten hinzu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_NONPROP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adds non-proportional text or data to the stream</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_TEXT</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Adds text to the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_TEXT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fügt der Ausgabe Text hinzu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_TEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adds text to the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_XML</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Adds XML data to the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_XML</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fügt der Ausgabe XML-Daten hinzu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_XML</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adds XML data to the output</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

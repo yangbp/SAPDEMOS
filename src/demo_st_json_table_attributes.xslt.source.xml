@@ -1,0 +1,18 @@
+<?sap.transform simple?>
+<tt:transform xmlns:tt="http://www.sap.com/transformation-templates">
+  <tt:root name="CARRIERS"/>
+  <tt:template>
+    <array>
+      <tt:loop ref=".CARRIERS">
+        <object>
+          <str>
+            <tt:attribute name="name">
+              <tt:value ref="$ref.carrname"/>
+            </tt:attribute>
+            <tt:value ref="$ref.url"/>
+          </str>
+        </object>
+      </tt:loop>
+    </array>
+  </tt:template>
+</tt:transform>

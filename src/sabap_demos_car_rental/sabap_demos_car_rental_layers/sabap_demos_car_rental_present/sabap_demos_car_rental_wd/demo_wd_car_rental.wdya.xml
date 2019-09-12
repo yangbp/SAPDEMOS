@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_WDYA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <APP>
+    <APPLICATION_NAME>DEMO_WD_CAR_RENTAL</APPLICATION_NAME>
+    <COMPONENT>DEMO_WD_CAR_RENTAL</COMPONENT>
+    <STARTUP_VIEW>CAR_RENTAL_W</STARTUP_VIEW>
+    <STARTUP_PLUG>DEFAULT</STARTUP_PLUG>
+    <DISPLAY_NAME>demo_wd_car_rental</DISPLAY_NAME>
+   </APP>
+  </asx:values>
+ </asx:abap>
+</abapGit>

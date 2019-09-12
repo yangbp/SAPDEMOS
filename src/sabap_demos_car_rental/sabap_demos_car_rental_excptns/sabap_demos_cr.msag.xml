@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>SABAP_DEMOS_CR</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Ausnahmetexte der Autovermietungs-Anwendung</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>1</SPRSL>
+     <ARBGB>SABAP_DEMOS_CR</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Action not possible due to lock</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>1</SPRSL>
+     <ARBGB>SABAP_DEMOS_CR</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Reservation not possible because of lock</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>1</SPRSL>
+     <ARBGB>SABAP_DEMOS_CR</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Deletion not possible due to lock</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>1</SPRSL>
+     <ARBGB>SABAP_DEMOS_CR</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Car &amp; could not be modified</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>1</SPRSL>
+     <ARBGB>SABAP_DEMOS_CR</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Car &amp; could not be created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>1</SPRSL>
+     <ARBGB>SABAP_DEMOS_CR</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Car &amp; could not be deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>1</SPRSL>
+     <ARBGB>SABAP_DEMOS_CR</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Car unavailable</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>1</SPRSL>
+     <ARBGB>SABAP_DEMOS_CR</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Customer &amp; could not be modified</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>1</SPRSL>
+     <ARBGB>SABAP_DEMOS_CR</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Customer &amp; could not be modified</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>1</SPRSL>
+     <ARBGB>SABAP_DEMOS_CR</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Customer could not be deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>1</SPRSL>
+     <ARBGB>SABAP_DEMOS_CR</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Customer not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>1</SPRSL>
+     <ARBGB>SABAP_DEMOS_CR</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Reservation could not be modified</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>1</SPRSL>
+     <ARBGB>SABAP_DEMOS_CR</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Reservation could not be created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>1</SPRSL>
+     <ARBGB>SABAP_DEMOS_CR</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Reservation could not be deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>1</SPRSL>
+     <ARBGB>SABAP_DEMOS_CR</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>System Error</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>SABAP_DEMOS_CR</ARBGB>
+     <STEXT>Ausnahmetexte der Autovermietungs-Anwendung</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>E</SPRSL>
+     <ARBGB>SABAP_DEMOS_CR</ARBGB>
+     <STEXT>Exception Texts of the Car Rental Application</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Aktion wegen Sperre nicht möglich</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Reservierung wegen Sperre nicht möglich</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Löschen wegen Sperre nicht möglich</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Auto &amp; konnte nicht modifiziert werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Auto &amp; konnte nicht erzeugt werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Auto &amp; konnte nicht gelöscht werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Auto nicht verfügbar</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Kunde &amp; konnte nicht modifiziert werde</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Kunde &amp; konnte nicht erzeugt werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Kunde &amp; konnte nicht gelöscht werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Kunde nicht gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Reservierung konnte nicht modifiziert werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Reservierung konnte nicht erzeugt werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Reservierung konnte nicht gelöscht werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Interner Fehler!</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Action not possible due to lock</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Reservation not possible because of lock</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Deletion not possible due to lock</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Car &amp; could not be modified</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Car &amp; could not be created</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Car &amp; could not be deleted</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Car unavailable</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Customer &amp; could not be modified</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Customer &amp; could not be modified</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Customer could not be deleted</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Customer not found</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Reservation could not be modified</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Reservation could not be created</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Reservation could not be deleted</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>System Error</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

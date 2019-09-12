@@ -1,0 +1,31 @@
+<xsl:transform version="1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:sap="http://www.sap.com/sapxsl"
+  xmlns:asx="http://www.sap.com/abapxml">
+
+  <xsl:variable name="smallcase" select="'abcdefghijklmnopqrstuvwxyz'"/>
+  <xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'"/>
+
+<xsl:param name="MODE" select="'UP'"/>
+
+<xsl:template match="*">
+  <xsl:element name="{sap:if($MODE='LO',
+         translate(name(),$uppercase, $smallcase ),
+         translate(name(),$smallcase, $uppercase ))}">
+    <xsl:copy-of select="@*"/>
+    <xsl:apply-templates select="node()"/>
+  </xsl:element>
+</xsl:template>
+
+<xsl:template match="asx:*">
+  <xsl:copy>
+    <xsl:copy-of select="@*"/>
+    <xsl:apply-templates select="node()"/>
+  </xsl:copy>
+</xsl:template>
+
+<xsl:template match="text() | processing-instruction() | comment()">
+  <xsl:copy/>
+</xsl:template>
+
+</xsl:transform>

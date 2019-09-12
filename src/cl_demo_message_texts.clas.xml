@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>CL_DEMO_MESSAGE_TEXTS</CLSNAME>
+    <LANGU>1</LANGU>
+    <DESCRIPT>Read Message Texts</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_MESSAGE_TEXTS</CLSNAME>
+     <CMPNAME>GET_LONGTEXT_HTML</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Gets long text of message in HTML format</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_MESSAGE_TEXTS</CLSNAME>
+     <CMPNAME>GET_LONGTEXT_HTML</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert Langtext der Meldung im HTML-Format</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_MESSAGE_TEXTS</CLSNAME>
+     <CMPNAME>GET_LONGTEXT_HTML</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Gets long text of message in HTML format</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

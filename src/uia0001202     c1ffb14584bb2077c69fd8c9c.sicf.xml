@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SICF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <URL>/sap/bc/apc/sap/UIA0001202/</URL>
+   <ICFSERVICE>
+    <ICF_NAME>UIA0001202</ICF_NAME>
+    <ORIG_NAME>UIA0001202</ORIG_NAME>
+    <ICFALTNME>DEMO_APC_PCP_STATEFUL</ICFALTNME>
+   </ICFSERVICE>
+   <ICFDOCU>
+    <ICF_NAME>UIA0001202</ICF_NAME>
+    <ICF_LANGU>1</ICF_LANGU>
+    <ICF_DOCU>Generated APC WebSocket Protocol Service</ICF_DOCU>
+   </ICFDOCU>
+  </asx:values>
+ </asx:abap>
+</abapGit>

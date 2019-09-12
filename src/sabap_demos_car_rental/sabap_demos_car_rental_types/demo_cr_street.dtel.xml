@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>DEMO_CR_STREET</ROLLNAME>
+    <DDLANGUAGE>1</DDLANGUAGE>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Street</DDTEXT>
+    <SCRTEXT_S>Street</SCRTEXT_S>
+    <SCRTEXT_M>Street</SCRTEXT_M>
+    <SCRTEXT_L>Street</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000060</LENG>
+    <OUTPUTLEN>000060</OUTPUTLEN>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Straße</DDTEXT>
+     <SCRTEXT_S>Str.</SCRTEXT_S>
+     <SCRTEXT_M>Straße</SCRTEXT_M>
+     <SCRTEXT_L>Straße</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Street</DDTEXT>
+     <SCRTEXT_S>Street</SCRTEXT_S>
+     <SCRTEXT_M>Street</SCRTEXT_M>
+     <SCRTEXT_L>Street</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

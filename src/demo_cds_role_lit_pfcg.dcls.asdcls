@@ -1,0 +1,6 @@
+@MappingRole: true
+define role demo_cds_role_lit_pfcg {
+  grant select on demo_cds_auth_lit_pfcg
+  where (carrid) =
+  aspect pfcg_auth (s_carrid, carrid, actvt='03') and
+         currcode = 'EUR'; }

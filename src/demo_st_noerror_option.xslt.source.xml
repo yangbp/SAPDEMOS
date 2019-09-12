@@ -1,0 +1,41 @@
+<?sap.transform simple?>
+<tt:transform xmlns:tt="http://www.sap.com/transformation-templates">
+  <tt:root name="N"/>
+  <tt:root name="P"/>
+  <tt:root name="BOOLEAN"/>
+  <tt:root name="XSDDATE_D"/>
+  <tt:root name="XSDTIME_T"/>
+  <tt:root name="XSDLANGUAGE"/>
+  <tt:root name="XSDCURRCODE"/>
+  <tt:root name="XSDUNITCODE"/>
+  <tt:template>
+    <array>
+      <object>
+        <str name="n">
+          <tt:value option="noError" ref="N"/>
+        </str>
+        <str name="p">
+          <tt:value option="noError" ref="P"/>
+        </str>
+        <bool name="boolean">
+          <tt:value option="noError" ref="BOOLEAN"/>
+        </bool>
+        <str name="xsddate_d">
+          <tt:value option="noError" ref="XSDDATE_D"/>
+        </str>
+        <str name="xsdtime_t">
+          <tt:value option="noError" ref="XSDTIME_T"/>
+        </str>
+        <str name="xsdlanguage">
+          <tt:value option="noError" ref="XSDLANGUAGE"/>
+        </str>
+        <str name="xsdcurrcode">
+          <tt:value option="noError" ref="XSDCURRCODE"/>
+        </str>
+        <str name="xsdunitcode">
+          <tt:value option="noError" ref="XSDUNITCODE"/>
+        </str>
+      </object>
+    </array>
+  </tt:template>
+</tt:transform>

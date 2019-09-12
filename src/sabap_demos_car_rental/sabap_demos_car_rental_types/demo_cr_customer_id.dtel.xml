@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>DEMO_CR_CUSTOMER_ID</ROLLNAME>
+    <DDLANGUAGE>1</DDLANGUAGE>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Customer ID</DDTEXT>
+    <REPTEXT>Customer ID</REPTEXT>
+    <SCRTEXT_S>ID</SCRTEXT_S>
+    <SCRTEXT_M>ID</SCRTEXT_M>
+    <SCRTEXT_L>Customer ID</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <DATATYPE>NUMC</DATATYPE>
+    <LENG>000008</LENG>
+    <OUTPUTLEN>000008</OUTPUTLEN>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Kunden-Id</DDTEXT>
+     <REPTEXT>Kunden-Id</REPTEXT>
+     <SCRTEXT_S>Id</SCRTEXT_S>
+     <SCRTEXT_M>Id</SCRTEXT_M>
+     <SCRTEXT_L>Kunden-Id</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Customer ID</DDTEXT>
+     <REPTEXT>Customer ID</REPTEXT>
+     <SCRTEXT_S>ID</SCRTEXT_S>
+     <SCRTEXT_M>ID</SCRTEXT_M>
+     <SCRTEXT_L>Customer ID</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

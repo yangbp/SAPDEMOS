@@ -1,0 +1,20 @@
+<?sap.transform simple?>
+<tt:transform
+  xmlns:tt="http://www.sap.com/transformation-templates">
+  <tt:root name="DATE"/>
+  <tt:root name="TIME"/>
+  <tt:root name="DATETIME"/>
+  <tt:template>
+    <Date_and_Time>
+      <Date>
+        <tt:value ref="DATE"/>
+      </Date>
+      <Time>
+        <tt:value ref="TIME"/>
+      </Time>
+      <DateTime>
+        <tt:value ref="DATETIME"/>
+      </DateTime>
+    </Date_and_Time>
+  </tt:template>
+</tt:transform>

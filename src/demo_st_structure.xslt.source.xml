@@ -1,0 +1,18 @@
+<?sap.transform simple?>
+<tt:transform xmlns:tt="http://www.sap.com/transformation-templates"
+              template="temp" version="0.1">
+  <tt:root name="PARA"/>
+  <tt:template name="temp">
+    <X>
+      <X1>
+        <tt:value ref="PARA.COL1"/>
+      </X1>
+      <X2>
+        <tt:value ref="PARA.COL2"/>
+      </X2>
+      <X2>
+        <tt:copy ref="PARA.STRUC2"/>
+      </X2>
+    </X>
+  </tt:template>
+</tt:transform>

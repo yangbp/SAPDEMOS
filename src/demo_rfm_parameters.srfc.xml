@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SRFC" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SRFC>
+    <HEADER>
+     <ID>DEMO_RFM_PARAMETERS</ID>
+     <VERSION>A</VERSION>
+     <FUNCNAME>DEMO_RFM_PARAMETERS</FUNCNAME>
+     <CREATEDBY>SAP</CREATEDBY>
+     <CREATEDON>2015-02-11</CREATEDON>
+     <CREATEDAT>13:09:59</CREATEDAT>
+    </HEADER>
+    <TEXT>
+     <ID>DEMO_RFM_PARAMETERS</ID>
+     <VERSION>A</VERSION>
+     <LANG>1</LANG>
+     <SHORTTEXT>Standard RFC Service for Function Module: DEMO_RFM_PARAMETERS</SHORTTEXT>
+    </TEXT>
+   </SRFC>
+  </asx:values>
+ </asx:abap>
+</abapGit>

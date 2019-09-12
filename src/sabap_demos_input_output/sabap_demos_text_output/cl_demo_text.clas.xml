@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+    <LANGU>1</LANGU>
+    <DESCRIPT>Text Display</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>TTL</KEY>
+     <ENTRY>Text Input</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>ADD_LINE</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Appends lines to text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>ADD_LINE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Hängt Zeile an Text an</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>ADD_LINE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Appends lines to text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>ADD_TABLE</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Appends text table to text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>ADD_TABLE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Hängt Texttabelle an Text an</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>ADD_TABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Appends text table to text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>DELETE</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Deletes text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>DELETE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Löscht Text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>DELETE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Deletes text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Displays text in dialog box</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Stellt Text in Dialogfenster dar</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Displays text in dialog box</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>DISPLAY_STRING</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Displays passed text string in dialog box</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>DISPLAY_STRING</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Stellt übergebenen Textstring in Dialogfenster dar</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>DISPLAY_STRING</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Displays passed text string in dialog box</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>EDIT</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Edit the text in dialog box</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>EDIT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Editieren des Texts in Dialogfenster</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>EDIT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Edit the text in dialog box</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>EDIT_STRING</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Edit the passed text string in dialog box</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>EDIT_STRING</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Editieren des übergebenenTextstrings in Dialogfenster</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>EDIT_STRING</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Edit the passed text string in dialog box</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>GET</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Returns text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>GET</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gibt Text zurück</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>GET</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>GET_AS_STRING</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Returns text as text string</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>GET_AS_STRING</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gibt Text als Textstring zurück</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>GET_AS_STRING</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns text as text string</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>GET_HANDLE</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Factory</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>GET_HANDLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Factory</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>NEW</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Factory</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>NEW</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Factory</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>NEW</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Factory</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>SHOW_STRING</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Displays passed text string in dialog box</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>SHOW_STRING</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Displays passed text string in dialog box</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>TEXT</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Text Table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>TEXT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Texttabelle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>TEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Text Table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>T_LINE</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Line Type for Text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>T_LINE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zeilentyp für Text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>T_LINE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Line Type for Text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>T_TEXT</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Table Type for Text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>T_TEXT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabellentyp für Text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_DEMO_TEXT</CLSNAME>
+     <CMPNAME>T_TEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table Type for Text</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

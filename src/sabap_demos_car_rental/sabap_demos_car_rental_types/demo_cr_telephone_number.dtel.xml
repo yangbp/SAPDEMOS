@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>DEMO_CR_TELEPHONE_NUMBER</ROLLNAME>
+    <DDLANGUAGE>1</DDLANGUAGE>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Telephone Number</DDTEXT>
+    <SCRTEXT_S>Tel.</SCRTEXT_S>
+    <SCRTEXT_M>Telephone No.</SCRTEXT_M>
+    <SCRTEXT_L>Telephone Number</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000020</LENG>
+    <OUTPUTLEN>000020</OUTPUTLEN>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Telefonnummer</DDTEXT>
+     <SCRTEXT_S>Tel.</SCRTEXT_S>
+     <SCRTEXT_M>Telefon</SCRTEXT_M>
+     <SCRTEXT_L>Telefonnummer</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Telephone Number</DDTEXT>
+     <SCRTEXT_S>Tel.</SCRTEXT_S>
+     <SCRTEXT_M>Telephone No.</SCRTEXT_M>
+     <SCRTEXT_L>Telephone Number</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

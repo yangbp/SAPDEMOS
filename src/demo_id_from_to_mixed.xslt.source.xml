@@ -1,0 +1,42 @@
+<xsl:transform version="1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:sap="http://www.sap.com/sapxsl"
+  xmlns:asx="http://www.sap.com/abapxml"
+  xmlns:f="FCT" exclude-result-prefixes="f">
+
+<sap:external-function name="f:toCC" kind="class"
+ class="CL_DEMO_XSLT_FROM_TO_MIXED" method="TO_CAMEL_CASE">
+  <sap:argument param="IN"  type="string"/>
+  <sap:result   param="OUT" type="string"/>
+</sap:external-function>
+
+<sap:external-function name="f:fromCC" kind="class"
+ class="CL_DEMO_XSLT_FROM_TO_MIXED" method="FROM_CAMEL_CASE">
+  <sap:argument param="IN"  type="string"/>
+  <sap:result   param="OUT" type="string"/>
+</sap:external-function>
+
+<xsl:param name="MODE" select="'FROM'"/>
+
+
+<xsl:template match="*">
+  <xsl:element name="{sap:if($MODE='TO',
+                      f:toCC(name()),
+                      f:fromCC(name()))}">
+    <xsl:copy-of select="@*"/>
+    <xsl:apply-templates select="node()"/>
+  </xsl:element>
+</xsl:template>
+
+<xsl:template match="asx:*">
+  <xsl:copy>
+    <xsl:copy-of select="@*"/>
+    <xsl:apply-templates select="node()"/>
+  </xsl:copy>
+</xsl:template>
+
+<xsl:template match="text() | processing-instruction() | comment()">
+  <xsl:copy/>
+</xsl:template>
+
+</xsl:transform>

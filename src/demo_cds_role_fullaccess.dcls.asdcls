@@ -1,0 +1,3 @@
+@MappingRole: true
+define role demo_cds_role_fullaccess {
+  grant select on demo_cds_auth_fullaccess; }

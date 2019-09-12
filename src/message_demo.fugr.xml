@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Message Demonstration</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>SAPLMESSAGE_DEMO</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>DEMO_FUNCTION_MESSAGE</FUNCNAME>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>MESSAGE_TYPE</PARAMETER>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>MESSAGE_PLACE</PARAMETER>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>MESSAGE_EVENT</PARAMETER>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>MESSAGE_TYPE</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MESSAGE_PLACE</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MESSAGE_EVENT</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 003</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>DEMO_FUNCTION_MESSAGE_RAISING</FUNCNAME>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>MESSAGE_TYPE</PARAMETER>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>MESSAGE_PLACE</PARAMETER>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>MESSAGE_EVENT</PARAMETER>
+      </RSIMP>
+     </IMPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>MESS</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>MESSAGE_TYPE</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MESSAGE_PLACE</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MESSAGE_EVENT</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 003</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MESS</PARAMETER>
+       <KIND>X</KIND>
+       <INDEX> 004</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

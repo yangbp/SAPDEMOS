@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+    <LANGU>1</LANGU>
+    <DESCRIPT>Demo Output with Instance Methods</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>BEGIN_SECTION</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Opens a header level</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>BEGIN_SECTION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Öffnet eine Überschriftenebene</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>BEGIN_SECTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Opens a header level</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Shows the current output and deletes it</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Stellt die aktuelle Ausgabe dar und löscht sie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Shows the current output and deletes it</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>END_SECTION</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Closes a header level</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>END_SECTION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Schließt  eine Überschriftenebene</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>END_SECTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Closes a header level</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>GET</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Gets the current output and opens a new output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>GET</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gibt die aktuelle Ausgabe  zurück und öffnet eine neue</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>GET</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Gets the current output and opens a new output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>HEADING</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Header</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>HEADING</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Header</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>LINE</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Adds a horizontal HTML line</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>LINE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fügt eine horizontale HTML-Linie ein</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>LINE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adds a horizontal HTML line</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>NEXT_SECTION</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Closes header level and opens a new level</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>NEXT_SECTION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Schließt  eine Überschriftenebene und öffnet eine neue</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>NEXT_SECTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Closes header level and opens a new level</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>NONPROP</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Non-Proportional Text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>NONPROP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Non-Proportional Text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>TEXT</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Regular Text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>TEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Regular Text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Adds non-proportional text or data to the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fügt der Ausgabe nicht-proportionalen Text oder Daten hinzu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adds non-proportional text or data to the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_DATA</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Adds a data object to the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fügt der Ausgabe ein Datenobjekt hinzu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adds a data object to the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_HTML</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Adds HTML data to the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_HTML</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fügt der Ausgabe HTML-Daten hinzu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_HTML</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adds HTML data to the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_JSON</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Adds JSON data to the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_JSON</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fügt der Ausgabe JSON-Daten hinzu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_JSON</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adds JSON data to the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_TEXT</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Adds text to the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_TEXT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fügt der AusgabeText hinzu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_TEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adds text to the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_XML</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Adds XML data to the output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_XML</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fügt der Ausgabe XML-Daten hinzu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_DEMO_OUTPUT</CLSNAME>
+     <CMPNAME>WRITE_XML</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adds XML data to the output</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

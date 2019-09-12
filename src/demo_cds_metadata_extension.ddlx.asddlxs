@@ -1,0 +1,26 @@
+@Metadata.layer:#INDUSTRY
+             
+@EndUserText.label: 'Demo für View mit Parametern'
+
+annotate view demo_cds_parameters with
+  parameters
+    @EndUserText.label: 'Untere Entfernungsgrenze'
+    p_distance_l,
+    @EndUserText.label: 'Obere Entfernungsgrenze'
+    p_distance_u,
+    @EndUserText.label: 'Einheit der Entfernung'
+    p_unit
+{
+  @EndUserText.label: 'Fluggesellschaft'
+  carrid;
+  @EndUserText.label: 'Flugverbindung'
+  connid;
+  @EndUserText.label: 'Abflug in Stadt'
+  cityfrom;
+  @EndUserText.label: 'Ankunft in Stadt'
+  cityto;
+  @EndUserText.label: 'Flugstrecke'
+  distance;
+  @EndUserText.label: 'Einheit der Flugstrecke'
+  distid;
+};

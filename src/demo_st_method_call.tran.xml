@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>DEMO_ST_METHOD_CALL</TCODE>
+    <CINFO>CA==</CINFO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>DEMO_ST_METHOD_CALL</TCODE>
+    <S_WEBGUI>1</S_WEBGUI>
+    <S_WIN32>X</S_WIN32>
+    <S_PLATIN>X</S_PLATIN>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>1</SPRSL>
+    <TCODE>DEMO_ST_METHOD_CALL</TCODE>
+    <TTEXT>Method Call from ST</TTEXT>
+   </TSTCT>
+   <TSTCP>
+    <TCODE>DEMO_ST_METHOD_CALL</TCODE>
+    <PARAM>\CLASS=CL_DEMO_CALL_FROM_ST\METHOD=MAIN</PARAM>
+   </TSTCP>
+   <I18N_TPOOL>
+    <TSTCT>
+     <SPRSL>D</SPRSL>
+     <TTEXT>Methodenaufruf aus ST</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>E</SPRSL>
+     <TTEXT>Method Call from ST</TTEXT>
+    </TSTCT>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

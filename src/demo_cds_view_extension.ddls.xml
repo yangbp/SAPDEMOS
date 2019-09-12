@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DDLS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DDLS>
+    <DDLNAME>DEMO_CDS_VIEW_EXTENSION</DDLNAME>
+    <DDLANGUAGE>1</DDLANGUAGE>
+    <PARENTNAME>DEMO_CDS_ORIGINAL_VIEW</PARENTNAME>
+    <DDTEXT>CDS View Extension for DEMO_CDS_ORIGINAL</DDTEXT>
+    <SOURCE_TYPE>E</SOURCE_TYPE>
+   </DDLS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,31 @@
+<?sap.transform simple?>
+<tt:transform xmlns:tt="http://www.sap.com/transformation-templates">
+  <tt:root name="SCARR_TAB"/>
+  <tt:root name="SPFLI_TAB"/>
+  <tt:variable name="carrid"/>
+  <tt:template>
+    <FlightList>
+      <tt:loop ref=".SCARR_TAB">
+        <Flights>
+          <tt:attribute name="Carrier" value-ref="CARRNAME"/>
+          <tt:assign ref="carrid" to-var="carrid"/>
+          <tt:call-method class="CL_DEMO_CALL_FROM_ST"
+                          s-name="GET_FLIGHTS">
+            <tt:with-parameter name="CARRID" var="carrid"/>
+          </tt:call-method>
+          <tt:loop ref=".SPFLI_TAB">
+            <Connection>
+              <tt:attribute name="ID" value-ref="CONNID"/>
+              <From>
+                <tt:value ref="CITYFROM"/>
+              </From>
+              <To>
+                <tt:value ref="CITYTO"/>
+              </To>
+            </Connection>
+          </tt:loop>
+        </Flights>
+      </tt:loop>
+    </FlightList>
+  </tt:template>
+</tt:transform>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>CL_ABAP_DEMO_SERVICES</CLSNAME>
+    <LANGU>1</LANGU>
+    <DESCRIPT>Service Methods for ABAP Examples</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_ABAP_DEMO_SERVICES</CLSNAME>
+     <CMPNAME>IS_PRODUCTION_SYSTEM</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Checks for production system</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_ABAP_DEMO_SERVICES</CLSNAME>
+     <CMPNAME>IS_PRODUCTION_SYSTEM</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Überprüft auf Produktivsystem</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_ABAP_DEMO_SERVICES</CLSNAME>
+     <CMPNAME>IS_PRODUCTION_SYSTEM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checks for production system</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_ABAP_DEMO_SERVICES</CLSNAME>
+     <CMPNAME>LIST_TABLE</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Lists the Contents of an Internal Table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_ABAP_DEMO_SERVICES</CLSNAME>
+     <CMPNAME>LIST_TABLE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Listet den Inhalt einer internen Tabelle auf</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_ABAP_DEMO_SERVICES</CLSNAME>
+     <CMPNAME>LIST_TABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Lists the Contents of an Internal Table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_ABAP_DEMO_SERVICES</CLSNAME>
+     <CMPNAME>LIST_TABLE_COMPONENTS</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Lists the Contents of Components of an Internal Table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_ABAP_DEMO_SERVICES</CLSNAME>
+     <CMPNAME>LIST_TABLE_COMPONENTS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Listet den Inhalt von Komponenten einer internen Tabelle auf</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_ABAP_DEMO_SERVICES</CLSNAME>
+     <CMPNAME>LIST_TABLE_COMPONENTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Lists the Contents of Components of an Internal Table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_ABAP_DEMO_SERVICES</CLSNAME>
+     <CMPNAME>LIST_TABLE_WITH_OFFSET</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>Lists the Contents of an Internal Table from an Offset</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_ABAP_DEMO_SERVICES</CLSNAME>
+     <CMPNAME>LIST_TABLE_WITH_OFFSET</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Listet den Inhalt einer internen Tabelle ab einem Offset auf</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_ABAP_DEMO_SERVICES</CLSNAME>
+     <CMPNAME>LIST_TABLE_WITH_OFFSET</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Lists the Contents of an Internal Table from an Offset</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

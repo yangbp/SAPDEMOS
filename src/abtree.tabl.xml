@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>ABTREE</TABNAME>
+    <DDLANGUAGE>1</DDLANGUAGE>
+    <TABCLASS>TRANSP</TABCLASS>
+    <DDTEXT>ABAP 工作台树结构对象</DDTEXT>
+    <MAINFLAG>N</MAINFLAG>
+    <CONTFLAG>S</CONTFLAG>
+    <EXCLASS>1</EXCLASS>
+   </DD02V>
+   <DD09L>
+    <TABNAME>ABTREE</TABNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <TABKAT>0</TABKAT>
+    <TABART>SSRC</TABART>
+    <BUFALLOW>N</BUFALLOW>
+    <ROWORCOLST>R</ROWORCOLST>
+   </DD09L>
+   <DD03P_TABLE>
+    <DD03P>
+     <TABNAME>ABTREE</TABNAME>
+     <FIELDNAME>RELID</FIELDNAME>
+     <POSITION>0001</POSITION>
+     <KEYFLAG>X</KEYFLAG>
+     <ROLLNAME>RELID</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <NOTNULL>X</NOTNULL>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <TABNAME>ABTREE</TABNAME>
+     <FIELDNAME>NAME</FIELDNAME>
+     <POSITION>0002</POSITION>
+     <KEYFLAG>X</KEYFLAG>
+     <ROLLNAME>EU_T_NAME</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <NOTNULL>X</NOTNULL>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <TABNAME>ABTREE</TABNAME>
+     <FIELDNAME>SORTFIELD</FIELDNAME>
+     <POSITION>0003</POSITION>
+     <KEYFLAG>X</KEYFLAG>
+     <ROLLNAME>SRTF2</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <NOTNULL>X</NOTNULL>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <TABNAME>ABTREE</TABNAME>
+     <FIELDNAME>CLUSTR</FIELDNAME>
+     <POSITION>0004</POSITION>
+     <ROLLNAME>SYBIN2</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <NOTNULL>X</NOTNULL>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <TABNAME>ABTREE</TABNAME>
+     <FIELDNAME>CLUSTD</FIELDNAME>
+     <POSITION>0005</POSITION>
+     <ROLLNAME>DWVARC4000</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+   </DD03P_TABLE>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>TB</ID>
+      <OBJECT>ABTREE</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <TXTLINES>00008</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ABTREE</TDNAME>
+      <TDID>TB</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The table is obsolete and should no longer be used. The tree structure</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>that was stored in the table was deleted and migrated to the ABAP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>keyword documentation.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The pictures stored in binary in the table were predecessors of the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>pictures in the MIME repository and are not for general use. As of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Release 6.10, you can access pictures from the MIME Repository (</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;EX&gt;mime_api = cl_mime_repository_api=&gt;get_api( )&lt;/&gt;, &lt;EX&gt;mime_api-&gt;get(</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>... )&lt;/&gt; ).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;MAINTENANCE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>TB</ID>
+      <OBJECT>ABTREE</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00008</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ABTREE</TDNAME>
+      <TDID>TB</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Tabelle ist obsolet und nicht mehr zu verwenden. Die bisher in der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Tabelle abgelegte Baumstruktur wurde gelöscht und in die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ABAP-Schlüsselwortdokumentation migriert.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In der Tabelle binär abgelegte Bilder waren Vorgänger für Bilder im MIME</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Repository und nicht zur allgemeinen Verwendung vorgesehen. Seit Release</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>6.10 kann auf Bilder des MIME Repository zugegriffen werden (</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;EX&gt;mime_api = cl_mime_repository_api=&gt;get_api( )&lt;/&gt;, &lt;EX&gt;mime_api-&gt;get(</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>... )&lt;/&gt; ).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;MAINTENANCE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

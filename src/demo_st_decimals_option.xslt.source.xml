@@ -1,0 +1,79 @@
+<?sap.transform simple?>
+<tt:transform xmlns:tt="http://www.sap.com/transformation-templates">
+  <tt:root name="INTEGER"/>
+  <tt:root name="PACK"/>
+  <tt:root name="DECF"/>
+  <tt:root name="BINF"/>
+  <tt:root name="TIMESTMPL"/>
+  <tt:root name="DATETIMEL"/>
+  <tt:template>
+    <array>
+      <object>
+        <str name="decimals(2) for INTEGER">
+          <tt:value option="decimals(2)"
+                    ref="INTEGER"/>
+        </str>
+        <str name="decimals(2) for PACK">
+          <tt:value option="decimals(2)"
+                    ref="PACK"/>
+        </str>
+        <str name="decimals(2) for DECF">
+          <tt:value option="decimals(2)"
+                    ref="DECF"/>
+        </str>
+        <str name="decimals(2) for BINF">
+          <tt:value option="decimals(2)"
+                    ref="BINF"/>
+        </str>
+        <str name="decimals(2) for TIMESTMPL">
+          <tt:value option="decimals(2)"
+                    ref="TIMESTMPL"/>
+        </str>
+        <str name="decimals(2) for DATETIMEL">
+          <tt:value option="decimals(2)"
+                    ref="DATETIMEL"/>
+        </str>
+        <str name="decimals(-1) for INTEGER">
+          <tt:value option="decimals(-1)"
+                    ref="INTEGER"/>
+        </str>
+        <str name="decimals(-1) for PACK">
+          <tt:value option="decimals(-1)"
+                    ref="PACK"/>
+        </str>
+        <str name="decimals(-1) for DECF">
+          <tt:value option="decimals(-1)"
+                    ref="DECF"/>
+        </str>
+        <str name="decimals(-1) for BINF">
+          <tt:value option="decimals(-1)"
+                    ref="BINF"/>
+        </str>
+        <str name="decimals(-6) for TIMESTMPL">
+          <tt:value option="decimals(-6)"
+                    ref="TIMESTMPL"/>
+        </str>
+        <str name="decimals(3) for TIMESTMPL">
+          <tt:value option="decimals(3)"
+                    ref="TIMESTMPL"/>
+        </str>
+        <str name="decimals(3) for DATETIMEL">
+          <tt:value option="decimals(3)"
+                    ref="DATETIMEL"/>
+        </str>
+        <str name="format(dateTime),decimals(3) for TIMESTMPL">
+          <tt:value option="format(dateTime),decimals(3)"
+                    ref="TIMESTMPL"/>
+        </str>
+        <str name="format(ticks),decimals(3) for TIMESTMPL">
+          <tt:value option="format(ticks),decimals(3)"
+                    ref="TIMESTMPL"/>
+        </str>
+        <str name="format(uri1),decimals(3) for TIMESTMPL">
+          <tt:value option="format(uri1),decimals(3)"
+                    ref="TIMESTMPL"/>
+        </str>
+      </object>
+    </array>
+  </tt:template>
+</tt:transform>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>DEMOF4DE</ROLLNAME>
+    <DDLANGUAGE>1</DDLANGUAGE>
+    <DOMNAME>S_CARR_ID</DOMNAME>
+    <HEADLEN>12</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>16</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>验证屏幕上的 F4 帮助</DDTEXT>
+    <REPTEXT>公司</REPTEXT>
+    <SCRTEXT_S>承运方</SCRTEXT_S>
+    <SCRTEXT_M>公司</SCRTEXT_M>
+    <SCRTEXT_L>航线承运人</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <SHLPNAME>DEMO_F4_DE</SHLPNAME>
+    <SHLPFIELD>CARRID</SHLPFIELD>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Demo für F4-Hilfe auf Dynpros</DDTEXT>
+     <REPTEXT>Gesellschaft</REPTEXT>
+     <SCRTEXT_S>Carrier</SCRTEXT_S>
+     <SCRTEXT_M>Gesellschaft</SCRTEXT_M>
+     <SCRTEXT_L>Fluggesellschaft</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Demonstration for F4 Help on Dynpros</DDTEXT>
+     <REPTEXT>Company</REPTEXT>
+     <SCRTEXT_S>Carrier</SCRTEXT_S>
+     <SCRTEXT_M>Company</SCRTEXT_M>
+     <SCRTEXT_L>Airline carrier</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

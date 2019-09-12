@@ -1,0 +1,17 @@
+<?sap.transform simple?>
+<tt:transform xmlns:tt="http://www.sap.com/transformation-templates">
+  <tt:root name="UUID1"/>
+  <tt:root name="UUID2"/>
+  <tt:template>
+    <asx:abap xmlns:asx="http://www.sap.com/abapxml">
+      <asx:values>
+        <UUID1>
+          <tt:value ref=".UUID1"/>
+        </UUID1>
+        <UUID2>
+          <tt:value ref=".UUID2"/>
+        </UUID2>
+      </asx:values>
+    </asx:abap>
+  </tt:template>
+</tt:transform>

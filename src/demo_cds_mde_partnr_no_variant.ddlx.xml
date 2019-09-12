@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DDLX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DDLX>
+    <METADATA>
+     <NAME>DEMO_CDS_MDE_PARTNR_NO_VARIANT</NAME>
+     <DESCRIPTION>CDS metadata enhancement without CDS variant</DESCRIPTION>
+     <MASTER_LANGUAGE>DE</MASTER_LANGUAGE>
+    </METADATA>
+   </DDLX>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>DEMO_CR_CAR_RENTAL</TCODE>
+    <PGMNA>DEMO_CR_CALL_CAR_RENTAL</PGMNA>
+    <CINFO>CA==</CINFO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>DEMO_CR_CAR_RENTAL</TCODE>
+    <S_WEBGUI>1</S_WEBGUI>
+    <S_WIN32>X</S_WIN32>
+    <S_PLATIN>X</S_PLATIN>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>1</SPRSL>
+    <TCODE>DEMO_CR_CAR_RENTAL</TCODE>
+    <TTEXT>Call Car Rental Demo</TTEXT>
+   </TSTCT>
+   <TSTCP>
+    <TCODE>DEMO_CR_CAR_RENTAL</TCODE>
+    <PARAM>\PROGRAM=DEMO_CR_CALL_CAR_RENTAL\CLASS=MAIN\METHOD=START</PARAM>
+   </TSTCP>
+   <I18N_TPOOL>
+    <TSTCT>
+     <SPRSL>D</SPRSL>
+     <TTEXT>Autovermietungsdemo aufrufen</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>E</SPRSL>
+     <TTEXT>Call Car Rental Demo</TTEXT>
+    </TSTCT>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

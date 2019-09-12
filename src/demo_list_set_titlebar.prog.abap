@@ -1,0 +1,9 @@
+REPORT demo_list_set_titlebar .
+
+WRITE 'Click me!' HOTSPOT COLOR 5 INVERSE ON.
+
+AT LINE-SELECTION.
+
+  SET TITLEBAR 'TST' WITH sy-lsind.
+
+  WRITE 'Click again!' HOTSPOT COLOR 5 INVERSE ON.

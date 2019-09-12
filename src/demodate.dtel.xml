@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>DEMODATE</ROLLNAME>
+    <DDLANGUAGE>1</DDLANGUAGE>
+    <DOMNAME>DEMODATE</DOMNAME>
+    <HEADLEN>05</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>验证屏幕上的 F4 帮助</DDTEXT>
+    <REPTEXT>日期</REPTEXT>
+    <SCRTEXT_S>日期</SCRTEXT_S>
+    <SCRTEXT_M>日期</SCRTEXT_M>
+    <SCRTEXT_L>日期</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Demo für F4-Hilfe auf Dynpros</DDTEXT>
+     <REPTEXT>Datum</REPTEXT>
+     <SCRTEXT_S>Datum</SCRTEXT_S>
+     <SCRTEXT_M>Datum</SCRTEXT_M>
+     <SCRTEXT_L>Datum</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Demonstration for F4 Help on Dynpros</DDTEXT>
+     <REPTEXT>Date</REPTEXT>
+     <SCRTEXT_S>Date</SCRTEXT_S>
+     <SCRTEXT_M>Date</SCRTEXT_M>
+     <SCRTEXT_L>Date</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
